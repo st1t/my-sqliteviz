@@ -9,6 +9,6 @@
 $ git clone git@github.com:st1t/my-sqliteviz.git
 $ cd my-sqliteviz/
 $ docker build -t my-sqliteviz .
-$ docker run --rm -it -p 8080:80 my-sqliteviz
+$ docker run --rm -itd --name my-sqliteviz -p 8080:80 my-sqliteviz
 $ open http://localhost:8080 
 ```
